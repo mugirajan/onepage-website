@@ -209,7 +209,7 @@
 	width:100%;
 	padding:20px 0px;
 	position:fixed;
-	z-index:1;
+	z-index:2;
 	background-color:white;
 }
 .nav-burger i{
@@ -255,7 +255,7 @@
 }
 									/*head-sec*/
 .head-bg-image{
-	background-image:linear-gradient(#ffffff9e,#ffffff9e),url("hero-bg.jpg");
+	background-image:linear-gradient(#ffffff9e,#ffffff9e),url("images/hero-bg.jpg");
 	background-position:center;
 	background-size:cover;
 	padding:200px 0px 100px 0px;
@@ -291,7 +291,9 @@
 .head-button button:hover{
 	background-color:#3194db;
 }
-	
+.lorem-box{
+	padding: 10px 0px;
+}
 .lorem-sec{
 	display:flex;
 	flex-wrap:wrap;
@@ -399,7 +401,7 @@
 }
 											/*video-image-section*/
 .video-image{
-	background:url(about-video.jpg) center center no-repeat;
+	background:url(images/about-video.jpg) center center no-repeat;
 	min-height:380px;
 	background-size:cover;
 	position:relative;
@@ -408,12 +410,13 @@
 	justify-content:center;
 	margin:0 auto;
 }
+.video{
+	padding: 15px;
+}
 .video-content h3{
 	font-weight: 700;
     font-size: 24px;
     color: #124265;
-}
-.video-content{
 }
 .video-sec{
 	display:Flex;
@@ -510,6 +513,7 @@
 	width:80%;
 	margin:0 auto;
 	margin-top:80px;
+
 }
 .testi-section>h2{
 	text-align:center;
@@ -586,6 +590,7 @@
 }
 .service-icon{
 	margin:10px;
+	padding-top:20px;
 	text-align: center;
     background: #fff;
     box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 5%);
@@ -602,7 +607,8 @@
 	align-items:center;
 }
 .service-co{
-	padding:40px 150px;
+	display:flex;
+	justify-content:center;
 }
 .service-co:hover i{
 	color:#fff;
@@ -760,7 +766,6 @@
 	border-top:4px solid white;
 	border-left:4px solid white;
 	transition:all 0.5s ease 0s;
-	z-index:;
 }
 .portfolio-info::after{
 	display:block;
@@ -773,7 +778,6 @@
 	border-bottom:4px solid white;
 	border-right:4px solid white;
 	transition:all 0.5s ease 0s;
-	z-index:;
 }
 .co-port-image::before{
 	content:"";
@@ -782,7 +786,6 @@
 	right:30px;
 	top:30px;
 	bottom:30px;
-	z-index:;
 	opacity:0;
 	background: rgba(36, 135, 206, 0.6);
 	transition:all ease-in-out 0.3s;
@@ -795,7 +798,6 @@
 	left:0;
 	bottom:0;
 	text-align:center;
-	z-index:;
 	transition:all ease-in-out 0.3s;
 	display:flex;
 	flex-direction:column;
